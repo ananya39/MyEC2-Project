@@ -51,3 +51,9 @@
 << Add simple HTML content
 
     Save and exit using Ctrl + O → Enter → Ctrl + X.
+ ## Step 5: Test Apache in Browser
+ << Open your browser.
+ 
+ << Enter your Public IP:  
+   
+    http://<Your-Public-IP>
