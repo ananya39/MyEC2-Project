@@ -1,4 +1,5 @@
 Steps to Host a Website on AWS EC2   
+
 Step 1: Launch an EC2 Instance
  
 << Log in to your AWS Management Console.
@@ -25,28 +26,28 @@ Step 3: Install Apache HTTP Server
  
  << Update the instance:
  
-  sudo yum update -y
+    sudo yum update -y
   
  << Install Apache:
  
-  sudo yum install -y httpd
+    sudo yum install -y httpd
   
 << Start Apache and enable it to run on boot:
 
    sudo systemctl start httpd
    
-   sudo systemctl enable httpd
+    sudo systemctl enable httpd
    
 Step 4: Create a Simple Website
  
 << Navigate to the web server directory:
 
-   cd /var/www/html
+    cd /var/www/html
    
 << Create an index.html file:
 
-   sudo nano index.html
+    sudo nano index.html
    
 << Add simple HTML content
 
-<< Save and exit using Ctrl + O → Enter → Ctrl + X.
+    Save and exit using Ctrl + O → Enter → Ctrl + X.
